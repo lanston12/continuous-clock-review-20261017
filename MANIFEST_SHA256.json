@@ -1,4 +1,5 @@
 {
+  ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
   ".gitignore": "d7d730e76c70a8d3c4ff52030e2714e4b8801d39163b91463b8141da44075d16",
   "code/check_input_contract_v6.py": "422fa4bd14b3deb30afb8cdbe52f534986d3fa4883d8ea9eba5cb4f1e8ee2d1d",
   "code/dense_raw_clock.py": "57ff6323ed75de389ba54d6e34f8505a2ac5822405a0d05490d746fd4c3a8a64",
