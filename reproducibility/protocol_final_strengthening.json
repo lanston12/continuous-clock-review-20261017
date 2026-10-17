@@ -1,0 +1,18 @@
+{
+  "declaration": "Fixed before executing final_paired_priors.py; prior centers use declared known-vehicle mechanics only, never force labels or observed errors.",
+  "records": [83000,83001,83002,83003,83004,83005,83006,83007],
+  "anchors_s": [2.0,4.5,7.0],
+  "durations_s": [0.25,0.5,1.0],
+  "primary_tolerance_N": 750.0,
+  "tolerance_grid_N": [250,500,750,1000,1500],
+  "decision_guard_N": 0.00001,
+  "nesting_tolerance_N": 0.00001,
+  "fixed_envelopes": "All methods/settings retain original record activity envelopes and original declared nominal mass; unknown mechanics vary only in the force map.",
+  "priors": {
+    "known_vehicle": {"center_multiplier": [1,1,1,1], "relative_halfwidth": [0.02,0.05,0,0]},
+    "wide_centered": {"center_multiplier": [1,1,1,1], "relative_halfwidth": [0.10,0.20,0.03,0.03]},
+    "wide_offcenter": {"center_multiplier": [1.03,0.95,1.01,0.99], "relative_halfwidth": [0.10,0.20,0.03,0.03]}
+  },
+  "offcenter_selection": "Deterministic shifts +3/-5/+1/-1 percent of declared known-vehicle m/I/a/b; analytic truth inclusion follows from 0.927<=1<=1.133, 0.76<=1<=1.14, 0.9797<=1<=1.0403, 0.9603<=1<=1.0197. No force-based selection.",
+  "force_scale": "750 / (nominal_mass * 9.80665 * nominal_b / (nominal_a+nominal_b)); static front normal-load scale for interpretation only, not a tire capacity or safety criterion."
+}

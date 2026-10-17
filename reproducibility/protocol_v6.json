@@ -1,0 +1,23 @@
+{
+ "study": "additional independent nonlinear generator evaluation and retrospective CarSim cross-fitting",
+ "method": "V5 finite-clock/shared-field method, unchanged numerical core",
+ "generator": "four-wheel nonlinear lateral/roll dynamics; load transfer, tire relaxation, longitudinal track moment",
+ "development_seeds": [82000,82001,82002,82003,82004,82005,82006,82007,82008,82009,82010,82011,82012,82013,82014,82015,82016,82017,82018,82019,82020,82021,82022,82023],
+ "test_seed_start": 83000, "test_runs":48,
+ "development_tire_law":"tanh", "test_tire_laws":["tanh","arctangent"],
+ "maneuvers":["multisine","chirp","double pulse","modulated steer"],
+ "test_rule":"mode=i%4; law=(i//4)%2; independently sampled vehicle parameters per seed",
+ "anchors_s":[2.0,4.5,7.0],"durations_s":[0.25,0.5,1.0],
+ "targets":["front_mean_N","front_change_N","axle_contrast_N","total_impulse_Ns"],
+ "force_primary_tolerance_N":750.0,"impulse_primary_tolerance_Ns":250.0,
+ "force_tolerance_curve_N":[100,250,500,750,1000,1500],
+ "noise_seed_offset":100000,"clock_generation_range_s":[-0.07,0.07],"inference_clock_range_s":[-0.08,0.08],
+ "yaw_step_s":0.02,"acceleration_step_s":0.04,"yaw_noise_bound_rads":0.002,"acceleration_noise_bound_mps2":0.08,
+ "yaw_common_bias_bound_rads":0.0005,"acceleration_common_bias_bound_mps2":0.02,
+ "mass_relative_prior":0.02,"inertia_relative_prior":0.05,
+ "calibration":"same activity envelope functional family as V5; max across 24 development runs times 1.25; native truth labels used only in development fit and test scoring",
+ "calibration_floor_N":25.0,"calibration_floor_Nm":100.0,
+ "physical_interpretation":"numeric truth uses the independently specified ODE; no measured-vehicle or additional CarSim run is claimed",
+ "no_test_force_label_in_fitting":true,
+ "crossfit_carsim":"five leave-one-record-out folds with V5 calibration recipe; explicitly retrospective because all records informed earlier method development"
+}

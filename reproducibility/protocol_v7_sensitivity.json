@@ -1,0 +1,16 @@
+{
+  "purpose": "Predefined V7 sensitivity study; original V6 results and tolerances unchanged",
+  "records": [83000,83001,83002,83003,83004,83005,83006,83007],
+  "selection": "First eight test seeds in original order; one run per law/maneuver stratum, no force-based selection",
+  "anchors_s": [2.0,4.5,7.0],
+  "durations_s": [0.25,0.5,1.0],
+  "front_change_tolerance_N": 750.0,
+  "mechanics_cases": ["original_known_vehicle","mass_center_plus_5pct","inertia_center_plus_10pct","geometry_center_plus_3pct","broader_mechanics","clock_center_plus_40ms_half_40ms","observation_gap"],
+  "gap_physical_s": [4.35,4.65],
+  "broader_mechanics_halfwidths": [0.10,0.20,0.03,0.03],
+  "clock_half_ranges_s": [0.02,0.04,0.08],
+  "sampling_factors": [0.5,1.0,2.0],
+  "frontier_clock_generation": "Same seed, clock offsets uniform within 0.875 times each stated half-range; sensor samples generated from saved native motion outputs",
+  "frozen_budget": "Original nonlinear_frozen_budget.json; no refitting at changed sampling rates or priors",
+  "scoring": "Full finite-record class membership and mechanical/clock truth inclusion checked after inference; report decisions computed from interval radius alone; out-of-class results retained"
+}

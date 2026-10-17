@@ -1,0 +1,524 @@
+{
+  "rows": [
+    {
+      "record": "test_83000",
+      "target": "front_mean_N",
+      "units": "N",
+      "exact": [
+        -1590.3105274116915,
+        -276.1454526045893
+      ],
+      "generic_outer": [
+        -1590.3105274116917,
+        -276.1454526045893
+      ],
+      "max_outer_gap": 2.2737367544323206e-13,
+      "status": "resolved",
+      "wall_s": 0.003983499999999918
+    },
+    {
+      "record": "test_83000",
+      "target": "front_change_N",
+      "units": "N",
+      "exact": [
+        -1316.9259981091077,
+        -371.5518236987805
+      ],
+      "generic_outer": [
+        -1316.9259981091075,
+        -371.5518236987803
+      ],
+      "max_outer_gap": 1.7053025658242404e-13,
+      "status": "resolved",
+      "wall_s": 0.0035688000000000386
+    },
+    {
+      "record": "test_83000",
+      "target": "axle_contrast_N",
+      "units": "N",
+      "exact": [
+        -747.578203683518,
+        -113.18879164921685
+      ],
+      "generic_outer": [
+        -747.5782036835182,
+        -113.18879164921692
+      ],
+      "max_outer_gap": 1.1368683772161603e-13,
+      "status": "resolved",
+      "wall_s": 0.004623000000000044
+    },
+    {
+      "record": "test_83000",
+      "target": "total_impulse_Ns",
+      "units": "N s",
+      "exact": [
+        -1216.5214255699323,
+        -219.55105677998088
+      ],
+      "generic_outer": [
+        -1216.5214255699325,
+        -219.55105677998094
+      ],
+      "max_outer_gap": 2.2737367544323206e-13,
+      "status": "resolved",
+      "wall_s": 0.003605499999999928
+    },
+    {
+      "record": "test_83001",
+      "target": "front_mean_N",
+      "units": "N",
+      "exact": [
+        -2102.1174283219175,
+        -983.5016683906128
+      ],
+      "generic_outer": [
+        -2102.1174283219175,
+        -983.5016683906132
+      ],
+      "max_outer_gap": 0.0,
+      "status": "resolved",
+      "wall_s": 0.0033161999999999914
+    },
+    {
+      "record": "test_83001",
+      "target": "front_change_N",
+      "units": "N",
+      "exact": [
+        -474.21533791830075,
+        576.0977807588295
+      ],
+      "generic_outer": [
+        -474.2153379183003,
+        576.0977807588296
+      ],
+      "max_outer_gap": 1.1368683772161603e-13,
+      "status": "resolved",
+      "wall_s": 0.0029882999999999438
+    },
+    {
+      "record": "test_83001",
+      "target": "axle_contrast_N",
+      "units": "N",
+      "exact": [
+        -654.7830622047736,
+        -37.957309761067336
+      ],
+      "generic_outer": [
+        -654.7830622047736,
+        -37.95730976106737
+      ],
+      "max_outer_gap": 0.0,
+      "status": "resolved",
+      "wall_s": 0.0035715000000000607
+    },
+    {
+      "record": "test_83001",
+      "target": "total_impulse_Ns",
+      "units": "N s",
+      "exact": [
+        -1774.725897219531,
+        -964.5230135100792
+      ],
+      "generic_outer": [
+        -1774.725897219531,
+        -964.5230135100793
+      ],
+      "max_outer_gap": 0.0,
+      "status": "resolved",
+      "wall_s": 0.003595899999999874
+    },
+    {
+      "record": "test_83002",
+      "target": "front_mean_N",
+      "units": "N",
+      "exact": [
+        75.5460983656489,
+        777.691277151485
+      ],
+      "generic_outer": [
+        75.54609836564886,
+        777.6912771514851
+      ],
+      "max_outer_gap": 1.1368683772161603e-13,
+      "status": "resolved",
+      "wall_s": 0.0031184000000001877
+    },
+    {
+      "record": "test_83002",
+      "target": "front_change_N",
+      "units": "N",
+      "exact": [
+        102.7488372492889,
+        780.1058779170348
+      ],
+      "generic_outer": [
+        102.74883724928885,
+        780.1058779170347
+      ],
+      "max_outer_gap": 4.263256414560601e-14,
+      "status": "resolved",
+      "wall_s": 0.0034429000000000265
+    },
+    {
+      "record": "test_83002",
+      "target": "axle_contrast_N",
+      "units": "N",
+      "exact": [
+        11.244729639057738,
+        439.92424816612106
+      ],
+      "generic_outer": [
+        11.244729639057729,
+        439.92424816612106
+      ],
+      "max_outer_gap": 8.881784197001252e-15,
+      "status": "resolved",
+      "wall_s": 0.0036794999999998357
+    },
+    {
+      "record": "test_83002",
+      "target": "total_impulse_Ns",
+      "units": "N s",
+      "exact": [
+        69.92373354612002,
+        557.7291530684245
+      ],
+      "generic_outer": [
+        69.92373354611998,
+        557.7291530684245
+      ],
+      "max_outer_gap": 4.263256414560601e-14,
+      "status": "resolved",
+      "wall_s": 0.0037841999999999043
+    },
+    {
+      "record": "test_83003",
+      "target": "front_mean_N",
+      "units": "N",
+      "exact": [
+        3629.145157644455,
+        5770.956963342084
+      ],
+      "generic_outer": [
+        3629.1451576444565,
+        5770.956963342082
+      ],
+      "max_outer_gap": -1.3642420526593924e-12,
+      "status": "resolved",
+      "wall_s": 0.0037624000000000546
+    },
+    {
+      "record": "test_83003",
+      "target": "front_change_N",
+      "units": "N",
+      "exact": [
+        -980.352319547872,
+        995.2145709701126
+      ],
+      "generic_outer": [
+        -980.3523195478717,
+        995.2145709701124
+      ],
+      "max_outer_gap": -2.2737367544323206e-13,
+      "status": "resolved",
+      "wall_s": 0.0036274000000000584
+    },
+    {
+      "record": "test_83003",
+      "target": "axle_contrast_N",
+      "units": "N",
+      "exact": [
+        698.7119590353614,
+        1872.58122648088
+      ],
+      "generic_outer": [
+        698.7119590353616,
+        1872.5812264808799
+      ],
+      "max_outer_gap": -2.2737367544323206e-13,
+      "status": "resolved",
+      "wall_s": 0.003617999999999899
+    },
+    {
+      "record": "test_83003",
+      "target": "total_impulse_Ns",
+      "units": "N s",
+      "exact": [
+        3279.7891781267745,
+        4834.666350101645
+      ],
+      "generic_outer": [
+        3279.7891781267754,
+        4834.666350101643
+      ],
+      "max_outer_gap": -9.094947017729282e-13,
+      "status": "resolved",
+      "wall_s": 0.0036434999999999107
+    },
+    {
+      "record": "test_83004",
+      "target": "front_mean_N",
+      "units": "N",
+      "exact": [
+        -4780.555355727524,
+        -2986.860083737587
+      ],
+      "generic_outer": [
+        -4780.555355727524,
+        -2986.8600837375866
+      ],
+      "max_outer_gap": 4.547473508864641e-13,
+      "status": "resolved",
+      "wall_s": 0.0043231999999999715
+    },
+    {
+      "record": "test_83004",
+      "target": "front_change_N",
+      "units": "N",
+      "exact": [
+        -1179.5602273332665,
+        418.12393082345943
+      ],
+      "generic_outer": [
+        -1179.5602273332672,
+        418.1239308234584
+      ],
+      "max_outer_gap": 6.821210263296962e-13,
+      "status": "resolved",
+      "wall_s": 0.0035203000000001428
+    },
+    {
+      "record": "test_83004",
+      "target": "axle_contrast_N",
+      "units": "N",
+      "exact": [
+        -42.72036922231473,
+        565.6511402839405
+      ],
+      "generic_outer": [
+        -42.72036922231487,
+        565.6511402839404
+      ],
+      "max_outer_gap": 1.4210854715202004e-13,
+      "status": "resolved",
+      "wall_s": 0.0036912000000000056
+    },
+    {
+      "record": "test_83004",
+      "target": "total_impulse_Ns",
+      "units": "N s",
+      "exact": [
+        -4787.215171721835,
+        -3241.66565327409
+      ],
+      "generic_outer": [
+        -4787.215171721834,
+        -3241.66565327409
+      ],
+      "max_outer_gap": 0.0,
+      "status": "resolved",
+      "wall_s": 0.006178100000000075
+    },
+    {
+      "record": "test_83005",
+      "target": "front_mean_N",
+      "units": "N",
+      "exact": [
+        -803.6846270369934,
+        226.58241638447967
+      ],
+      "generic_outer": [
+        -803.6846270369936,
+        226.5824163844797
+      ],
+      "max_outer_gap": 1.1368683772161603e-13,
+      "status": "resolved",
+      "wall_s": 0.007459700000000069
+    },
+    {
+      "record": "test_83005",
+      "target": "front_change_N",
+      "units": "N",
+      "exact": [
+        -979.8972879221034,
+        -287.09721773129763
+      ],
+      "generic_outer": [
+        -979.8972879221033,
+        -287.09721773129763
+      ],
+      "max_outer_gap": 0.0,
+      "status": "resolved",
+      "wall_s": 0.003792100000000076
+    },
+    {
+      "record": "test_83005",
+      "target": "axle_contrast_N",
+      "units": "N",
+      "exact": [
+        -762.1259898784921,
+        -187.54958332022292
+      ],
+      "generic_outer": [
+        -762.1259898784921,
+        -187.54958332022292
+      ],
+      "max_outer_gap": 0.0,
+      "status": "resolved",
+      "wall_s": 0.007103700000000046
+    },
+    {
+      "record": "test_83005",
+      "target": "total_impulse_Ns",
+      "units": "N s",
+      "exact": [
+        -422.62163209774735,
+        320.3572080445911
+      ],
+      "generic_outer": [
+        -422.6216320977474,
+        320.3572080445912
+      ],
+      "max_outer_gap": 5.684341886080802e-14,
+      "status": "resolved",
+      "wall_s": 0.005692800000000053
+    },
+    {
+      "record": "test_83006",
+      "target": "front_mean_N",
+      "units": "N",
+      "exact": [
+        398.55712040446076,
+        1634.4342863739232
+      ],
+      "generic_outer": [
+        398.5571204044607,
+        1634.4342863739232
+      ],
+      "max_outer_gap": 5.684341886080802e-14,
+      "status": "resolved",
+      "wall_s": 0.00469710000000001
+    },
+    {
+      "record": "test_83006",
+      "target": "front_change_N",
+      "units": "N",
+      "exact": [
+        529.5959762977641,
+        1670.1610750182615
+      ],
+      "generic_outer": [
+        529.5959762977643,
+        1670.1610750182617
+      ],
+      "max_outer_gap": 2.2737367544323206e-13,
+      "status": "resolved",
+      "wall_s": 0.004559499999999828
+    },
+    {
+      "record": "test_83006",
+      "target": "axle_contrast_N",
+      "units": "N",
+      "exact": [
+        333.209085424897,
+        1163.1293081146132
+      ],
+      "generic_outer": [
+        333.20908542489684,
+        1163.1293081146134
+      ],
+      "max_outer_gap": 2.2737367544323206e-13,
+      "status": "resolved",
+      "wall_s": 0.004284400000000188
+    },
+    {
+      "record": "test_83006",
+      "target": "total_impulse_Ns",
+      "units": "N s",
+      "exact": [
+        231.95257769201226,
+        1052.8696323166166
+      ],
+      "generic_outer": [
+        231.9525776920122,
+        1052.8696323166168
+      ],
+      "max_outer_gap": 2.2737367544323206e-13,
+      "status": "resolved",
+      "wall_s": 0.005015999999999909
+    },
+    {
+      "record": "test_83007",
+      "target": "front_mean_N",
+      "units": "N",
+      "exact": [
+        2253.7783209411054,
+        3768.457595243821
+      ],
+      "generic_outer": [
+        2253.778320941106,
+        3768.45769224718
+      ],
+      "max_outer_gap": 9.700335931484005e-05,
+      "status": "resolved",
+      "wall_s": 0.012512999999999996
+    },
+    {
+      "record": "test_83007",
+      "target": "front_change_N",
+      "units": "N",
+      "exact": [
+        -2035.7411250262821,
+        -209.45953019963554
+      ],
+      "generic_outer": [
+        -2035.7411250262815,
+        -209.45953019963488
+      ],
+      "max_outer_gap": 6.536993168992922e-13,
+      "status": "resolved",
+      "wall_s": 0.00912209999999991
+    },
+    {
+      "record": "test_83007",
+      "target": "axle_contrast_N",
+      "units": "N",
+      "exact": [
+        -639.2758283247181,
+        329.0075682390684
+      ],
+      "generic_outer": [
+        -639.275828324718,
+        329.0076592203918
+      ],
+      "max_outer_gap": 9.098132341023302e-05,
+      "status": "resolved",
+      "wall_s": 0.003571299999999944
+    },
+    {
+      "record": "test_83007",
+      "target": "total_impulse_Ns",
+      "units": "N s",
+      "exact": [
+        2573.4162351034647,
+        3603.953811124287
+      ],
+      "generic_outer": [
+        2573.4162351034643,
+        3603.953902583276
+      ],
+      "max_outer_gap": 9.145898911810946e-05,
+      "status": "resolved",
+      "wall_s": 0.0036713999999999913
+    }
+  ],
+  "queries": 32,
+  "resolved": 32,
+  "max_outer_gap": 9.700335931484005e-05,
+  "max_gap_by_units": {
+    "N": 9.700335931484005e-05,
+    "N s": 9.145898911810946e-05
+  },
+  "scope": "Same measurements, windows, mechanics, fields and engineering units; numerical Bernstein enclosure, not a CPZ/SPZ software replication"
+}

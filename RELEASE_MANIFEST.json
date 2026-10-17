@@ -1,0 +1,28 @@
+{
+  "deterministic_reference_results": [
+    "nonlinear_test_rows.json",
+    "nonlinear_test_applicability.json",
+    "v7_dense_verification.json",
+    "input_contract_check.json",
+    "public_dense_replay.json",
+    "v7_sensitivity.json",
+    "v7_resolution_frontier.json",
+    "v7_generic_force.json",
+    "final_paired_priors.json",
+    "final_tolerance_frontier.json"
+  ],
+  "synthetic_trajectories": {
+    "development": 24,
+    "test": 48,
+    "reused_sensitivity": 8
+  },
+  "excluded": [
+    "All CarSim records and derived statistics/figures",
+    "All original private ZIP archives",
+    "Manuscript PDFs with retrospective CarSim results",
+    "Simulator inputs/binaries/licenses",
+    "Credentials"
+  ],
+  "version": "Fixed review snapshot",
+  "scope": "Synthetic-only numerical reproduction. No manuscript, author metadata, private inputs or plots."
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "force_and_auxiliary_label_mutation_max_interval_change": 0.0,
+  "disjoint_development_test_seeds": true,
+  "scope": "single explicit mutation regression plus documented inference argument separation; not a general security proof"
+}
